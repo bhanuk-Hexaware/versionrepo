@@ -8,8 +8,8 @@ name: ci-pythonmongo
 env:
   DOCKER_FILE_PATH: ./pythonmongo/Dockerfile
   DOCKER_BUILD_CONTEXT: pythonmongo
-  CONTAINER_NAME: asadf
-  REPOSITORY_NAME: asadf
+  CONTAINER_NAME: asadfqwsdefghjkl
+  REPOSITORY_NAME: asadfqwsdefghjkl
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
