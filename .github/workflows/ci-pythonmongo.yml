@@ -10,8 +10,8 @@ env:
   DOCKER_FILE_PATH: ./pythonmongo/Dockerfile.publish
   DOCKER_BUILD_CONTEXT: pythonmongo
   DOCKER_PUBLISH_CONTEXT: pythonmongo
-  CONTAINER_NAME: reponame
-  REPOSITORY_NAME: reponame
+  CONTAINER_NAME: reponamm
+  REPOSITORY_NAME: reponamm
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
