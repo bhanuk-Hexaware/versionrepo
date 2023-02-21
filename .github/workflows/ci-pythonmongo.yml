@@ -8,8 +8,8 @@ name: ci-pythonmongo
 env:
   DOCKER_FILE_PATH: ./pythonmongo/Dockerfile
   DOCKER_BUILD_CONTEXT: pythonmongo
-  CONTAINER_NAME: reponamefer
-  REPOSITORY_NAME: reponamefer
+  CONTAINER_NAME: reponame
+  REPOSITORY_NAME: reponame
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
