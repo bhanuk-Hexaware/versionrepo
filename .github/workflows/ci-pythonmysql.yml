@@ -8,8 +8,8 @@ name: ci-pythonmysql
 env:
   DOCKER_FILE_PATH: ./pythonmysql/Dockerfile
   DOCKER_BUILD_CONTEXT: pythonmysql
-  CONTAINER_NAME: reponamesdfghj
-  REPOSITORY_NAME: reponamesdfghj
+  CONTAINER_NAME: reponame
+  REPOSITORY_NAME: reponame
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
